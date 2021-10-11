@@ -1,37 +1,36 @@
-## Welcome to GitHub Pages
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css"
+         rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" 
+         crossorigin="anonymous">
+         <title>Opdracht week 4</title>
 
-You can use the [editor on GitHub](https://github.com/wiskundehv/mod4-solu/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+    
+    </head>
+    <body>
+        <h1>Opdracht van week 4 JS</h1>
+        <script>
+        (function () {
+            var names = ["Houcine", "John", "Jen", "Jason", "Paul",
+             "Frank", "Larry", "Paula", "Laura", "Jim"];
+            for (var i = 0; i < names.length; i++) {
+              var firstLetter = names[i].charAt(0).toLowerCase();
+              if (firstLetter === 'j') {
+                document.write ("Good Bye"+ " "+ names[i]+ "   ======   ");
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+                
+              } else {
+                document.write("Hello"+" " +names[i]+ "    ======   ");
+                
+              }
+             
+            }
+            })();
 
-### Markdown
+        </SCript>
+    </body>
+   
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/wiskundehv/mod4-solu/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</html>
